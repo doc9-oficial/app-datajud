@@ -1,0 +1,22 @@
+{
+  "name": "app-datajud",
+  "version": "1.0.0",
+  "description": "Integração DataJud (CNJ) para Docflow",
+  "main": "dist/buscarProcesso.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prebuild": "npm run clean",
+    "clean": "rm -rf dist"
+  },
+  "author": "doc9-oficial",
+  "license": "MIT",
+  "dependencies": {
+    "docgo-sdk": "github:doc9-oficial/docgo-sdk-js",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  }
+}
