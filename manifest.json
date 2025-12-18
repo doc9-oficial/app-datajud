@@ -25,7 +25,7 @@
       "icon": "Gavel",
       "script": "dist/buscarProcesso.js",
       "description": "Busca metadados de um processo no DataJud por número/identificador.",
-      "category": "judicial",
+      "category": "juridico",
       "values": {
         "tribunal": "api_publica_trf1/_search",
         "query": "{ \"query\": { \"match\": { \"numeroProcesso\": \"0000000-00.0000.0.00.0000\" } } }"
@@ -428,7 +428,7 @@
       "icon": "Search",
       "script": "dist/buscarPorEnvolvido.js",
       "description": "Busca processos por nome ou documento do envolvido.",
-      "category": "judicial",
+      "category": "juridico",
       "values": {
         "tribunal": "api_publica_tjsp/_search",
         "query": "{ \"query\": { \"match\": { \"partes.nome\": \"fulano\" } } }"
