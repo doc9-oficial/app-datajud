@@ -1,7 +1,9 @@
 {
   "name": "app-datajud",
+  "displayName": "DataJUD",
   "version": "1.0.0",
   "description": "Integração DataJud (CNJ) - API Pública",
+  "icon": "BookUser",
   "auth": {
     "description": {
       "title": "API Key Pública do DataJud",
